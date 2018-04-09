@@ -16,11 +16,20 @@ function greeting(language) {
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  if (num === 10 || num === 5) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
+  if (num < 50 && num > 20)
+    return true;
+} else {
+    return false;
 }
 
 function isInteger(num) {
@@ -37,6 +46,15 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  for (let i = 1; 1< = num i++)
+    for (1 % 5 === 0 && 1 % 3 === 0)
+      return "FizzBuzz";
+    else if (i % 3 === 0)
+      return "Fizz";
+    else if (i % 5 === 0)
+      return "Buzz"
+    else 
+      return i;
 }
 
 function isPrime(num) {
