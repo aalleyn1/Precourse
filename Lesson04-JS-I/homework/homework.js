@@ -60,19 +60,19 @@ function areEqual(x, y) {
   // otherwise return false
   // code here
   if (x === y) {
-  return true
+  return true;
   } else {
-  return false
-  };
+  return false;
+  }
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
   if (str1.length === str2.length) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -81,9 +81,9 @@ function lessThanNinety(num) {
   // otherwise return false
   // code here
   if (num < 90) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   };
 }
 
@@ -92,10 +92,10 @@ function greaterThanFifty(num) {
   // otherwise return false
   // code here
   if (num > 50) {
-    return true
+    return true;
   } else {
-    return false
-  };
+    return false;
+  }
 }
 
 function getRemainder(x, y) {
@@ -109,10 +109,10 @@ function isEven(num) {
   // otherwise return false
   // code here
   if (num % 2 === 0) {
-    return true
+    return true;
   } else {
-    return false
-  };
+    return false;
+  }
 }
 
 function isOdd(num) {
@@ -120,9 +120,9 @@ function isOdd(num) {
   // otherwise return false
   // code here
   if (num % 2 === 0) {
-  return false
+  return false;
   } else {
-  return true
+  return true;
   };
 }
 
@@ -161,7 +161,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return str + "!";
+  return str + '!';
   
 }
 
@@ -169,14 +169,14 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return firstName + " " + lastName;
+  return firstName + ' ' + lastName;
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return "hello " + " " + name;
+  return 'hello' + ' ' + name;
 }
 
 // The next three questions will have you implement math area formulas. 
