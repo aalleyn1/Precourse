@@ -47,7 +47,7 @@ function fizzBuzz(num) {
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
   for (let i = 1; 1< = num i++)
-    for (1 % 5 === 0 && 1 % 3 === 0)
+    for (i % 5 === 0 && i % 3 === 0)
       return "FizzBuzz";
     else if (i % 3 === 0)
       return "Fizz";
