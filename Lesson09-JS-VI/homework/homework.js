@@ -10,9 +10,9 @@ function sumArray(numbers, cb) {
   // pass the result to cb
   // no return is necessary
   let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[1];
-  }
+  numbers.forEach(function(number) {
+    sum += number;
+  });
   cb(sum);
 }
 
